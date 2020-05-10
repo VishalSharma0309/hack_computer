@@ -22,14 +22,8 @@ To build a computer from the absoulte basic logic gate NAND.
 * Order of HDL statements is **insignificant**
 * Only prerequisite to use a build-in/user-defined chip is the knowledge of its **interface**
 
-An HDL definition of a chip consists of a **header section** and a **parts section**. 
-
-<br>
-
-The **header section** specifies the chip interface, namely the chip name and the names of its input and output pins. 
-
-<br>
-
+An HDL definition of a chip consists of a **header section** and a **parts section**.  <br>
+The **header section** specifies the chip interface, namely the chip name and the names of its input and output pins. <br>
 The **parts section** describes the names and topology of all the lower-level parts (other chips) from which this chip is constructed. Each part is represented by a statement that specifies the part name and the way it is connected to other parts in the design.
 
 #### Testing
