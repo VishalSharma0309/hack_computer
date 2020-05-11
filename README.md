@@ -1,7 +1,7 @@
 # 'Hack' Computer
 
 ### Objective
-To build a computer from the absoulte basic logic gate NAND. 
+To build a computer from the absolute basic logic gate NAND. 
 
 ### Technical Specification of 'Hack'
 
