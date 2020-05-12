@@ -1,11 +1,9 @@
-# 'Hack' Computer
+# The 'Hack' Computer
 
 ### Objective
-To build a computer from the absolute basic logic gate NAND. 
+To build a computer from the absolute basic logical gate- NAND for all combinational chips and D Flip-Flop for all sequential chips. 
 
 ### Technical Specification of 'Hack'
-
-
 
 
 ### General Architechture of 'Hack'
@@ -29,12 +27,9 @@ The **parts section** describes the names and topology of all the lower-level pa
 #### Testing
 
 1. Manual Testing
-
 2. Script Testing
 
-The script lists a series of testing scenarios, designed to simulate the various contingencies under which the chip will have to operate in ‘‘real-life’’ situations.
-
-<br>
+The script lists a series of testing scenarios, designed to simulate the various contingencies under which the chip will have to operate in ‘‘real-life’’ situations.<br>
 
 The script instructs the simulator to bind the chip inputs to certain data values, compute the resulting output, and record the test results in a designated output file.
 
@@ -64,7 +59,8 @@ The script instructs the simulator to bind the chip inputs to certain data value
 
 
 ### References
-
+1. Digital Logic and Computer Design- M. Morris Mano
+2. The Elements of Computing Systems- Noam Nisan and Shimon Schocken
 
 
 
