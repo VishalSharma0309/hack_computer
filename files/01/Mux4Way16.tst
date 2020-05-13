@@ -1,4 +1,4 @@
-// File name: projects/01/Mux4Way16.tst
+// File name: files/01/Mux4Way16.tst
 
 load Mux4Way16.hdl,
 output-file Mux4Way16.out,

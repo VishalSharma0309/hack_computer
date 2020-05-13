@@ -1,4 +1,4 @@
-// File name: projects/01/Or.tst
+// File name: files/01/Or.tst
 
 load Or.hdl,
 output-file Or.out,

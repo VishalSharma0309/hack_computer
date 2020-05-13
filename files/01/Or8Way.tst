@@ -1,4 +1,4 @@
-// File name: projects/01/Or8Way.tst
+// File name: files/01/Or8Way.tst
 
 load Or8Way.hdl,
 output-file Or8Way.out,

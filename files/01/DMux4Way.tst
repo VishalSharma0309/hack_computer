@@ -1,4 +1,4 @@
-// File name: projects/01/DMux4Way.tst
+// File name: files/01/DMux4Way.tst
 
 load DMux4Way.hdl,
 output-file DMux4Way.out,

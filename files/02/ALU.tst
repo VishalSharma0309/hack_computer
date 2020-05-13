@@ -1,4 +1,4 @@
-// File name: projects/02/ALU.tst
+// File name: files/02/ALU.tst
 
 load ALU.hdl,
 output-file ALU.out,

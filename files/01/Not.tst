@@ -1,4 +1,4 @@
-// File name: projects/01/Not.tst
+// File name: files/01/Not.tst
 
 load Not.hdl,
 output-file Not.out,

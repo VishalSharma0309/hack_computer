@@ -1,4 +1,4 @@
-// File name: projects/01/Xor.tst
+// File name: files/01/Xor.tst
 
 load Xor.hdl,
 output-file Xor.out,

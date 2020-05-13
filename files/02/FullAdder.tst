@@ -1,4 +1,4 @@
-// File name: projects/02/FullAdder.tst
+// File name: files/02/FullAdder.tst
 
 load FullAdder.hdl,
 output-file FullAdder.out,

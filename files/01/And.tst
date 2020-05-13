@@ -1,4 +1,4 @@
-// File name: projects/01/And.tst
+// File name: files/01/And.tst
 
 load And.hdl,
 output-file And.out,

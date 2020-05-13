@@ -1,4 +1,4 @@
-// File name: projects/01/DMux8Way.hdl
+// File name: files/01/DMux8Way.hdl
 
 /**
  * 8-way demultiplexor:

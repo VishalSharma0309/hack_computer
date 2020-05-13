@@ -1,4 +1,4 @@
-// File name: projects/01/Mux.hdl
+// File name: files/01/Mux.hdl
 
 /** 
  * Multiplexor: out = a*sel' + b*sel

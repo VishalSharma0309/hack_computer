@@ -1,7 +1,4 @@
-// This file is part of www.nand2tetris.org
-// and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
-// File name: projects/03/a/Bit.tst
+// File name: files/03/Bit.tst
 
 load Bit.hdl,
 output-file Bit.out,

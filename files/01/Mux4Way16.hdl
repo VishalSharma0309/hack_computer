@@ -1,4 +1,4 @@
-// File name: projects/01/Mux4Way16.hdl
+// File name: files/01/Mux4Way16.hdl
 
 /**
  * 4-way 16-bit multiplexor:

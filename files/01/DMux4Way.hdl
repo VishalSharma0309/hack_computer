@@ -1,4 +1,4 @@
-// File name: projects/01/DMux4Way.hdl
+// File name: files/01/DMux4Way.hdl
 
 /**
  * 4-way demultiplexor:

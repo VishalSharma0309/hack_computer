@@ -1,4 +1,4 @@
-// File name: projects/01/DMux8Way.tst
+// File name: files/01/DMux8Way.tst
 
 load DMux8Way.hdl,
 output-file DMux8Way.out,

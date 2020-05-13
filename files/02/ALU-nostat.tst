@@ -1,4 +1,4 @@
-// File name: projects/02/ALU-nostat.tst
+// File name: files/02/ALU-nostat.tst
 
 // ALU-nostat.tst provides a partial test of the ALU chip.
 // It IS NOT a replacement for ALU.tst.

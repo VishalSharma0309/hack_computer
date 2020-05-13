@@ -1,4 +1,4 @@
-// File name: projects/01/DMux.tst
+// File name: files/01/DMux.tst
 
 load DMux.hdl,
 output-file DMux.out,

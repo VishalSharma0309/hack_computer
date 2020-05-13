@@ -1,4 +1,4 @@
-// File name: projects/01/Mux.tst
+// File name: files/01/Mux.tst
 
 load Mux.hdl,
 output-file Mux.out,

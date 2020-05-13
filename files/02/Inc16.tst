@@ -1,4 +1,4 @@
-// File name: projects/02/Inc16.tst
+// File name: files/02/Inc16.tst
 
 load Inc16.hdl,
 output-file Inc16.out,

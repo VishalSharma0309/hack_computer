@@ -1,4 +1,4 @@
-// File name: projects/02/Adder16.hdl
+// File name: files/02/Adder16.hdl
 
 /**
  * Adds two 16-bit values.
