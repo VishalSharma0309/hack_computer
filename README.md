@@ -14,6 +14,8 @@ To build a computer from the absolute basic logical gate- NAND for all combinati
 
 #### Simulation Tools
 
+### Project Structure
+
 ### Hardware Description Language (HDL)
 
 * HDL is a **functional/declarative** language 
