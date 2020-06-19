@@ -94,7 +94,6 @@ hack_computer
 |   └───builtInChips
 |   └───builtInVMCode
 |   └───OS
-
 '''
 
 ### Hardware Description Language (HDL)
