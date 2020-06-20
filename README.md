@@ -17,7 +17,8 @@ To build a computer from the absolute basic logical gate- NAND for all combinati
 ### Project Structure
 
 
-''' hack_computer
+''' 
+    hack_computer
     │   README.md
     │
     └───01
