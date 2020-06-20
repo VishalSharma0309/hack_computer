@@ -17,7 +17,7 @@ To build a computer from the absolute basic logical gate- NAND for all combinati
 ### Project Structure
 
 
-''' 
+    ''' 
     hack_computer
     │   README.md
     │
@@ -95,7 +95,7 @@ To build a computer from the absolute basic logical gate- NAND for all combinati
     |   └───builtInChips
     |   └───builtInVMCode
     |   └───OS
-'''
+    '''
 
 
 ### Hardware Description Language (HDL)
