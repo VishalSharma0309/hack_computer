@@ -17,84 +17,84 @@ To build a computer from the absolute basic logical gate- NAND for all combinati
 ### Project Structure
 
 
->    hack_computer
->    │   README.md
->    │
->    └───01
->    │   |   And: .hdl, .tst, .out, .cmp    
->    |   |   And16: .hdl, .tst, .out, .cmp  
->    |   |   DMux: .hdl, .tst, .out, .cmp  
->    |   |   DMux4Way: .hdl, .tst, .out, .cmp  
->    |   |   DMux8Way: .hdl, .tst, .out, .cmp  
->    |   |   Mux: .hdl, .tst, .out, .cmp  
->    |   |   Mux4Way16: .hdl, .tst, .out, .cmp  
->    |   |   Mux8Way16: .hdl, .tst, .out, .cmp  
->    |   |   Mux16: .hdl, .tst, .out, .cmp  
->    |   |   Not: .hdl, .tst, .out, .cmp  
->    |   |   Not16: .hdl, .tst, .out, .cmp  
->    |   |   Or: .hdl, .tst, .out, .cmp  
->    |   |   Or8Way: .hdl, .tst, .out, .cmp  
->    |   |   Or16: .hdl, .tst, .out, .cmp  
->    |   |   Xor: .hdl, .tst, .out, .cmp  
->    |
->    └───02
->    │   │   Add16: .cmo, .hdl, .out, .tst
->    |   |   ALU: .cmp, .hdl, .out, .tst
->    |   |   ALU-nostat: .cmp, .tst
->    |   |   FullAdder: .cmp, .out, .tst
->    |   |   HalfAdder: .cmp, .hdl, .out, .tst
->    |   |   Inc16: .cmp, .hdl, .out, .tst
->    |   |   Or16Way: .hdl
->    |
->    └───03
->    |   |   Bit: .cmp, .hdl, .out, .tst
->    |   |   PC: .cmp, .hdl, .out, .tst
->    |   |   RAM4K: .cmp, .hdl, .out, .tst
->    |   |   RAM8: .cmp, .hdl, .out, .tst
->    |   |   RAM16K: .cmp, .hdl, .out, .tst
->    |   |   RAM64: .cmp, .hdl, .out, .tst
->    |   |   RAM512: .cmp, .hdl, .out, .tst
->    |   |   Register: .cmp, .hdl, .out, .tst
->    |
->    └───04
->    |   |   Computer: .cmp, .hdl, .out, .tst
->    |   |   ComputerAdd: .cmp, .hdl, .out, .tst
->    |   |   ComputerAdd-external: .cmp, .hdl, .out, .tst
->    |   |   ComputerMax: .cmp, .hdl, .out, .tst
->    |   |   ComputerMax-external: .cmp, .hdl, .out, .tst
->    |   |   ComputerRect: .cmp, .hdl, .out, .tst
->    |   |   ComputerRect-external: .cmp, .hdl, .out, .tst
->    |   |   CPU: .cmp, .hdl, .out, .tst
->    |   |   CPU-external: .cmp, .hdl, .out, .tst
->    |   |   Memory: .cmp, .hdl, .out, .tst
->    |
->    └───05
->    |   |   Add: .asm, .hack
->    |   |   Assembler.py
->    |   |   Makefile
->    |   |   Max: .asm, .hack
->    |   |   MaxL: .asm, .hack
->    |   |   Pong: .asm, .hack
->    |   |   PongL: .asm, .hack
->    |   |   README
->    |   |   Rect: .asm, .hack
->    |   |   RectL: .asm, .hack
->    |   |   test6.sh
->    |
->    └───tools
->    |   |   Assembler: .bat, .sh
->    |   |   CPUEmulator: .bat, .sh
->    |   |   HardwareSimulator: .bat, .sh
->    |   |   JackCompiler: .bat, .sh
->    |   |   TextComparer: .bat, .sh
->    |   |   VMEmulator: .bat, .sh
->    |   |   Noam Nisan, Shimon Schocken - The Elements of Computing Systems_ Building a Modern >Computer from First Principles-The MIT Press (2005).pdf
->    |   
->    |   └───bin
->    |   └───builtInChips
->    |   └───builtInVMCode
->    |   └───OS
->
+''' hack_computer
+    │   README.md
+    │
+    └───01
+    │   |   And: .hdl, .tst, .out, .cmp    
+    |   |   And16: .hdl, .tst, .out, .cmp  
+    |   |   DMux: .hdl, .tst, .out, .cmp  
+    |   |   DMux4Way: .hdl, .tst, .out, .cmp  
+    |   |   DMux8Way: .hdl, .tst, .out, .cmp  
+    |   |   Mux: .hdl, .tst, .out, .cmp  
+    |   |   Mux4Way16: .hdl, .tst, .out, .cmp  
+    |   |   Mux8Way16: .hdl, .tst, .out, .cmp  
+    |   |   Mux16: .hdl, .tst, .out, .cmp  
+    |   |   Not: .hdl, .tst, .out, .cmp  
+    |   |   Not16: .hdl, .tst, .out, .cmp  
+    |   |   Or: .hdl, .tst, .out, .cmp  
+    |   |   Or8Way: .hdl, .tst, .out, .cmp  
+    |   |   Or16: .hdl, .tst, .out, .cmp  
+    |   |   Xor: .hdl, .tst, .out, .cmp  
+    |
+    └───02
+    │   │   Add16: .cmo, .hdl, .out, .tst
+    |   |   ALU: .cmp, .hdl, .out, .tst
+    |   |   ALU-nostat: .cmp, .tst
+    |   |   FullAdder: .cmp, .out, .tst
+    |   |   HalfAdder: .cmp, .hdl, .out, .tst
+    |   |   Inc16: .cmp, .hdl, .out, .tst
+    |   |   Or16Way: .hdl
+    |
+    └───03
+    |   |   Bit: .cmp, .hdl, .out, .tst
+    |   |   PC: .cmp, .hdl, .out, .tst
+    |   |   RAM4K: .cmp, .hdl, .out, .tst
+    |   |   RAM8: .cmp, .hdl, .out, .tst
+    |   |   RAM16K: .cmp, .hdl, .out, .tst
+    |   |   RAM64: .cmp, .hdl, .out, .tst
+    |   |   RAM512: .cmp, .hdl, .out, .tst
+    |   |   Register: .cmp, .hdl, .out, .tst
+    |
+    └───04
+    |   |   Computer: .cmp, .hdl, .out, .tst
+    |   |   ComputerAdd: .cmp, .hdl, .out, .tst
+    |   |   ComputerAdd-external: .cmp, .hdl, .out, .tst
+    |   |   ComputerMax: .cmp, .hdl, .out, .tst
+    |   |   ComputerMax-external: .cmp, .hdl, .out, .tst
+    |   |   ComputerRect: .cmp, .hdl, .out, .tst
+    |   |   ComputerRect-external: .cmp, .hdl, .out, .tst
+    |   |   CPU: .cmp, .hdl, .out, .tst
+    |   |   CPU-external: .cmp, .hdl, .out, .tst
+    |   |   Memory: .cmp, .hdl, .out, .tst
+    |
+    └───05
+    |   |   Add: .asm, .hack
+    |   |   Assembler.py
+    |   |   Makefile
+    |   |   Max: .asm, .hack
+    |   |   MaxL: .asm, .hack
+    |   |   Pong: .asm, .hack
+    |   |   PongL: .asm, .hack
+    |   |   README
+    |   |   Rect: .asm, .hack
+    |   |   RectL: .asm, .hack
+    |   |   test6.sh
+    |
+    └───tools
+    |   |   Assembler: .bat, .sh
+    |   |   CPUEmulator: .bat, .sh
+    |   |   HardwareSimulator: .bat, .sh
+    |   |   JackCompiler: .bat, .sh
+    |   |   TextComparer: .bat, .sh
+    |   |   VMEmulator: .bat, .sh
+    |   |   Noam Nisan, Shimon Schocken - The Elements of Computing Systems_ Building a Modern Computer from First Principles-The MIT Press (2005).pdf
+    |   
+    |   └───bin
+    |   └───builtInChips
+    |   └───builtInVMCode
+    |   └───OS
+'''
 
 
 ### Hardware Description Language (HDL)
